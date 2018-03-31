@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435123643DEFB04B814F7B87 /* Pods_CleanWaterCrowdsourcing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0AB6DA5C01A836D9E3C245 /* Pods_CleanWaterCrowdsourcing.framework */; };
+		709C592E1F1100BE00DE9357 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 709C592D1F1100BE00DE9357 /* GoogleService-Info.plist */; };
+		709C59301F11560C00DE9357 /* ReportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C592F1F11560C00DE9357 /* ReportsTableViewController.swift */; };
+		709C59321F12090C00DE9357 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709C59311F12090C00DE9357 /* Helper.swift */; };
+		70A9C4DB1F10946100751F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9C4DA1F10946100751F11 /* AppDelegate.swift */; };
+		70A9C4DD1F10946100751F11 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9C4DC1F10946100751F11 /* MapViewController.swift */; };
+		70A9C4E01F10946100751F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A9C4DE1F10946100751F11 /* Main.storyboard */; };
+		70A9C4E21F10946100751F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A9C4E11F10946100751F11 /* Assets.xcassets */; };
+		70A9C4E51F10946100751F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A9C4E31F10946100751F11 /* LaunchScreen.storyboard */; };
+		70CE173E1F15391100E395AE /* AddEditReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE173D1F15391100E395AE /* AddEditReportTableViewController.swift */; };
+		70CE17411F153EA500E395AE /* WaterQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE17401F153EA500E395AE /* WaterQuality.swift */; };
+		70CE174A1F15748600E395AE /* WaterReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE17491F15748600E395AE /* WaterReport.swift */; };
+		70CE174E1F15A6FB00E395AE /* NetworkTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CE174D1F15A6FB00E395AE /* NetworkTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0AB6DA5C01A836D9E3C245 /* Pods_CleanWaterCrowdsourcing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWaterCrowdsourcing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31218C314014B5D2F87485CE /* Pods-CleanWaterCrowdsourcing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWaterCrowdsourcing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanWaterCrowdsourcing/Pods-CleanWaterCrowdsourcing.debug.xcconfig"; sourceTree = "<group>"; };
+		709C592D1F1100BE00DE9357 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		709C592F1F11560C00DE9357 /* ReportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsTableViewController.swift; sourceTree = "<group>"; };
+		709C59311F12090C00DE9357 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		70A9C4D71F10946100751F11 /* CleanWaterCrowdsourcing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanWaterCrowdsourcing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A9C4DA1F10946100751F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70A9C4DC1F10946100751F11 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		70A9C4DF1F10946100751F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70A9C4E11F10946100751F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70A9C4E41F10946100751F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70A9C4E61F10946100751F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CE173D1F15391100E395AE /* AddEditReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditReportTableViewController.swift; sourceTree = "<group>"; };
+		70CE17401F153EA500E395AE /* WaterQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterQuality.swift; sourceTree = "<group>"; };
+		70CE17491F15748600E395AE /* WaterReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterReport.swift; sourceTree = "<group>"; };
+		70CE174D1F15A6FB00E395AE /* NetworkTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTabBarController.swift; sourceTree = "<group>"; };
+		74B1EB5F1F9C39BDD78A968A /* Pods-CleanWaterCrowdsourcing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWaterCrowdsourcing.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanWaterCrowdsourcing/Pods-CleanWaterCrowdsourcing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70A9C4D41F10946100751F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435123643DEFB04B814F7B87 /* Pods_CleanWaterCrowdsourcing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70A9C4CE1F10946100751F11 = {
+			isa = PBXGroup;
+			children = (
+				709C592D1F1100BE00DE9357 /* GoogleService-Info.plist */,
+				70A9C4D91F10946100751F11 /* CleanWaterCrowdsourcing */,
+				70A9C4D81F10946100751F11 /* Products */,
+				940DC6C528A1F87F35AF78E9 /* Pods */,
+				E43F69D3AF60C1EB84961C8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70A9C4D81F10946100751F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A9C4D71F10946100751F11 /* CleanWaterCrowdsourcing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A9C4D91F10946100751F11 /* CleanWaterCrowdsourcing */ = {
+			isa = PBXGroup;
+			children = (
+				70A9C4E61F10946100751F11 /* Info.plist */,
+				70A9C4E11F10946100751F11 /* Assets.xcassets */,
+				70A9C4DE1F10946100751F11 /* Main.storyboard */,
+				70A9C4E31F10946100751F11 /* LaunchScreen.storyboard */,
+				70A9C4DA1F10946100751F11 /* AppDelegate.swift */,
+				70CE17421F153F2A00E395AE /* Model */,
+				70CE173F1F15398F00E395AE /* View Controllers */,
+				70CE17461F156F8F00E395AE /* Utility */,
+			);
+			path = CleanWaterCrowdsourcing;
+			sourceTree = "<group>";
+		};
+		70CE173F1F15398F00E395AE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70CE174D1F15A6FB00E395AE /* NetworkTabBarController.swift */,
+				70A9C4DC1F10946100751F11 /* MapViewController.swift */,
+				709C592F1F11560C00DE9357 /* ReportsTableViewController.swift */,
+				70CE173D1F15391100E395AE /* AddEditReportTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		70CE17421F153F2A00E395AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70CE17401F153EA500E395AE /* WaterQuality.swift */,
+				70CE17491F15748600E395AE /* WaterReport.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		70CE17461F156F8F00E395AE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				709C59311F12090C00DE9357 /* Helper.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		940DC6C528A1F87F35AF78E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31218C314014B5D2F87485CE /* Pods-CleanWaterCrowdsourcing.debug.xcconfig */,
+				74B1EB5F1F9C39BDD78A968A /* Pods-CleanWaterCrowdsourcing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E43F69D3AF60C1EB84961C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0AB6DA5C01A836D9E3C245 /* Pods_CleanWaterCrowdsourcing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70A9C4D61F10946100751F11 /* CleanWaterCrowdsourcing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A9C4E91F10946100751F11 /* Build configuration list for PBXNativeTarget "CleanWaterCrowdsourcing" */;
+			buildPhases = (
+				82E1A3ACCAD9A41AE446F99B /* [CP] Check Pods Manifest.lock */,
+				70A9C4D31F10946100751F11 /* Sources */,
+				70A9C4D41F10946100751F11 /* Frameworks */,
+				70A9C4D51F10946100751F11 /* Resources */,
+				01ECC7C4D8D7EB7AF8D02784 /* [CP] Embed Pods Frameworks */,
+				58C06D6853EACA68714FCFC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanWaterCrowdsourcing;
+			productName = CleanWaterCrowdsourcing;
+			productReference = 70A9C4D71F10946100751F11 /* CleanWaterCrowdsourcing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70A9C4CF1F10946100751F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wenqi He";
+				TargetAttributes = {
+					70A9C4D61F10946100751F11 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 75TCUGQZPC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 70A9C4D21F10946100751F11 /* Build configuration list for PBXProject "CleanWaterCrowdsourcing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70A9C4CE1F10946100751F11;
+			productRefGroup = 70A9C4D81F10946100751F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70A9C4D61F10946100751F11 /* CleanWaterCrowdsourcing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70A9C4D51F10946100751F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A9C4E51F10946100751F11 /* LaunchScreen.storyboard in Resources */,
+				709C592E1F1100BE00DE9357 /* GoogleService-Info.plist in Resources */,
+				70A9C4E21F10946100751F11 /* Assets.xcassets in Resources */,
+				70A9C4E01F10946100751F11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01ECC7C4D8D7EB7AF8D02784 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanWaterCrowdsourcing/Pods-CleanWaterCrowdsourcing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C06D6853EACA68714FCFC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CleanWaterCrowdsourcing/Pods-CleanWaterCrowdsourcing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82E1A3ACCAD9A41AE446F99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70A9C4D31F10946100751F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C59301F11560C00DE9357 /* ReportsTableViewController.swift in Sources */,
+				70CE17411F153EA500E395AE /* WaterQuality.swift in Sources */,
+				70CE173E1F15391100E395AE /* AddEditReportTableViewController.swift in Sources */,
+				70CE174A1F15748600E395AE /* WaterReport.swift in Sources */,
+				70CE174E1F15A6FB00E395AE /* NetworkTabBarController.swift in Sources */,
+				70A9C4DD1F10946100751F11 /* MapViewController.swift in Sources */,
+				70A9C4DB1F10946100751F11 /* AppDelegate.swift in Sources */,
+				709C59321F12090C00DE9357 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70A9C4DE1F10946100751F11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A9C4DF1F10946100751F11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70A9C4E31F10946100751F11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A9C4E41F10946100751F11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70A9C4E71F10946100751F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70A9C4E81F10946100751F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70A9C4EA1F10946100751F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31218C314014B5D2F87485CE /* Pods-CleanWaterCrowdsourcing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75TCUGQZPC;
+				INFOPLIST_FILE = CleanWaterCrowdsourcing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.moonki.CleanWaterCrowdsourcing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70A9C4EB1F10946100751F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B1EB5F1F9C39BDD78A968A /* Pods-CleanWaterCrowdsourcing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75TCUGQZPC;
+				INFOPLIST_FILE = CleanWaterCrowdsourcing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.moonki.CleanWaterCrowdsourcing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70A9C4D21F10946100751F11 /* Build configuration list for PBXProject "CleanWaterCrowdsourcing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A9C4E71F10946100751F11 /* Debug */,
+				70A9C4E81F10946100751F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A9C4E91F10946100751F11 /* Build configuration list for PBXNativeTarget "CleanWaterCrowdsourcing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A9C4EA1F10946100751F11 /* Debug */,
+				70A9C4EB1F10946100751F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70A9C4CF1F10946100751F11 /* Project object */;
+}
